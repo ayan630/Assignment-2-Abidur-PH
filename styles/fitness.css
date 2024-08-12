@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@import url('https://fonts.cdnfonts.com/css/miama');
+
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -7,8 +9,125 @@
   font-style: normal;
 }
 
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Shared Styles */
+.container{
+    /* width: 80%; */
+    /* margin: 5rem auto;
+    border-radius: 1rem; */
+}
+
+.display-flex{
+    display: flex;
+}
+
+.text-orange{
+    color: rgb(230, 83, 60)    ;
+}
+
+.text-white{
+    color: rgba(255, 255, 255);
+}      
+
+.text-gray{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-linear-gray{
+    /* background-color: black; */
+    background: linear-gradient(180deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+
+.banner{
+    margin-top: 50px;
+}
+
+.btn-primary{
+
+}
+
+/* Header styles */
+header{
+    /* background-color: black; */
+}
+
+/* Navbar related styles */
+.navbar{
+    border: 1px solid red;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 59px;
+    margin-top: ;
+    /* background-color: black;    */
+}
+.brand{
+    font-weight: 800;
+    font-size: 2.25rem;
+}
+
+.navbar, .banner{
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.nav-links{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    align-items: center;
+    height: 46px;
+   
+
+}
+.nav-item{
+    list-style: none;
+    margin-right: 47px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 400;
+    font-size:  1.1rem;
+    /* font-weight: 400; */
+}
+
+.nav-home{
+    background: rgb(230, 83, 60);
+    border-radius: 46px;
+    padding: 8px 20px;
+    font-weight: 600;
+    margin-left: 4px;
+}
+.about-item{
+    padding: 0px 20px;
+    margin-right: 4px;
+}
+.ham-burger{
+    display: none;
+}
+/* banner styles */
+.highlight{
+    font-family: 'Miama', sans-serif;
+}
 
 
+
+
+/* Mobile Responsive */
+@media screen and (max-width: 576px) {
+    .nav-links{
+        display: none;
+    }
+    .ham-burger{
+        display: block;
+        color: white;
+    }
+}
 
 
 
