@@ -10,10 +10,13 @@
 }
 
 *{
-    background-color: black;
+    /* background-color: black; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    background-color: black;
 }
 
 /* Shared Styles */
@@ -45,7 +48,7 @@
 }
 
 .banner{
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 .btn-primary{
@@ -109,6 +112,7 @@ header{
 }
 .ham-burger{
     display: none;
+    color: white;
 }
 /* banner styles */
 .highlight{
@@ -118,14 +122,23 @@ header{
 
 
 
-/* Mobile Responsive */
+/* Responsive Design for Mobile */
 @media screen and (max-width: 576px) {
+    .navbar, .banner{
+        max-width: 95%;
+    }
     .nav-links{
         display: none;
     }
+    .brand{
+        font-weight: 800;
+        font-size: 2rem;
+    }
     .ham-burger{
         display: block;
-        color: white;
+    }
+    .ham-burger i{
+        font-size: 1.9rem;
     }
 }
 
