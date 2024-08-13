@@ -69,11 +69,44 @@ body{
     border-radius: 42px;
     margin-left: 14px;                  
 }
-.btn-2{
+
+/* Badge styles */
+.badge{
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+}
+.badge-1{
+    width: 206px;
+    height: 96px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background-color: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+    margin-top: -162px;
+    margin-left: -120px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px; */
+    
 
 }
-.btn-3{
-
+.badge-2{
+    width: 206px;
+    height: 96px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background-color: rgba(48, 48, 48, 0.54);
+    color: white;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    margin-top: -460px;
+    margin-left: 220px;
+    position: absolute;
 }
 
 .circle{
@@ -81,6 +114,41 @@ body{
     height: 40px;
     background-color: rgb(230, 83, 60);
     border-radius: 50%;
+    margin-right: 12px;
+    margin-top: 25px;
+}
+.play-icon{
+    /* display: none; */
+    margin-bottom: -55px;
+    font-size: 1rem;
+    margin-right: 11px;
+}
+.badge-play{
+    margin-top: 12px;
+}
+.badge-1-number{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-right: 28px;
+}
+.badge-1-texts{
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.badge-1-text{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.65);
+}
+.badge-2-number{
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-right: 25px;
+}
+.badge-2-text{
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.65);
+    margin-right: 10px;
+    
 }
 
 /* Header styles */
@@ -145,6 +213,7 @@ header{
 /* banner styles */
 .banner{
     justify-content: space-between;
+    margin-top: 32px;
 }
 .banner-title{
     font-weight: 900;
@@ -174,8 +243,9 @@ header{
 
 
 /* Responsive Design for Mobile */
+
 @media screen and (max-width: 576px) {
-    .navbar, .banner{
+    .navbar, .banner {
         max-width: 95%;
     }
     .nav-links{
@@ -192,6 +262,7 @@ header{
         font-size: 1.9rem;
     }
 }
+
 
 
 
