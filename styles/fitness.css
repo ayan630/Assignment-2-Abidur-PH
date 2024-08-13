@@ -44,7 +44,7 @@ body{
 
 .bg-linear-gray{
     /* background-color: black; */
-    background: linear-gradient(180deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background: linear-gradient(180deg, rgb(31, 30, 30),rgba(119, 119, 119, 0) 100%);
 }
 
 .banner{
@@ -148,7 +148,6 @@ body{
     font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.65);
     margin-right: 10px;
-    
 }
 
 /* Header styles */
@@ -158,11 +157,11 @@ header{
 
 /* Navbar related styles */
 .navbar{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     justify-content: space-between;
     align-items: center;
     padding-top: 59px;
-    visibility: invisible;
+    /* visibility: invisible; */
     /* background-color: black;    */
 }
 .brand{
@@ -211,12 +210,12 @@ header{
 /* banner styles */
 .banner{
     justify-content: space-between;
-    margin-top: 32px;
+    /* margin-top: 32px; */
 }
 .banner-title{
     font-weight: 900;
     font-size: 4.8rem;
-    margin-top: 97px;
+    margin-top: 20px;
     margin-bottom: 28px;
     line-height: 110%;
 }
@@ -232,10 +231,16 @@ header{
     font-size: 1rem;
     margin-bottom: 28px;
 }
-/* .banner-img{
-    height: 580px;
-    width: 349px;
-} */
+.banner-content{
+    margin-top: 100px;
+}
+.featured-img-badge{
+    margin-top: 32px;
+}
+.banner-img{
+    /* height: 580px; */
+    width: 100%;
+}
 
 
 
@@ -243,6 +248,10 @@ header{
 /* Responsive Design for Mobile */
 
  @media screen and (max-width: 576px) {
+    .banner{
+        flex-direction: column;
+        border: 1px solid blue;
+    }
 
     .navbar , .banner{
         max-width: 95%;
@@ -260,11 +269,105 @@ header{
     .ham-burger i{
         font-size: 1.9rem;
     }
-    .navbar ul{
+    /* .navbar ul{
         border: 1px solid red;
         visibility: hidden;
+    } */
+    .banner-content{
+        margin-top: 51px;
     }
+    .banner-title{
+        font-weight: 900;
+        font-size: 2.5rem;
+        margin-top: 0px;
+        margin-bottom: 28px;
+        line-height: 100%;
+    }
+    .title-shape{
+        font-size: 2.25rem;
+        font-weight: 400;
+        display: inline-block;
+        transform: scale(1.9, 1.9);
+        margin-right: 30px;
+        margin-left: 25px;
+    }
+    .banner-description{
+        width: 274px;
+    }
+    .btn-primary{
+        width: 185px;
+        height: 54px;
+        font-size: 1rem;
+        padding: 16px 27px;
+    }
+    .join-club{
+        display: none;
+    }
+    .btn-download{
+        width: 185px;
+        height: 54px;
+        font-size: 1rem;
+        margin-left: 23px;
+        padding: 16px 27px;                 
+    }
+    .badge-1{
+        width: 156px;
+        height: 72.5px;
+        margin-top: -350px;
+        margin-left: 16px;
+    }
+    .circle{
+        width: 30.24px;
+        height: 30.24px;
+        margin-right: 12px;
+        margin-top: 25px;
+    }
+    .play-icon{
+        margin-bottom: -49px;
+        font-size: 0.9rem;
+        margin-right: 11px;
+    }
+    .badge-play{
+        margin-top: 9px;
+    }
+    .badge-1-texts{
+        margin-bottom: 5px;
+        margin-right: 5px;
+    }
+    
+    .badge-1-number{
+        font-size: 1.13rem;
+        font-weight: 900;
+        margin-right: 22px;
+    }
+    
+    .badge-1-text{
+        font-size: 0.75rem;
+    }
+    
+    .badge-2{
+        width: 145px;
+        height: 74px;
+        margin-top: -620px;
+        margin-left: 220px;
+    }
+    .badge-2-number{
+        font-size: 1.9rem;
+        margin-right: 22px;
+    }
+    .badge-2-text{
+        font-size: 0.65rem;
+        margin-right: 5px;
+    }
+
 } 
+
+
+
+
+
+
+
 
 /* @media (max-width: 576px) { 
     .navbar ul{
