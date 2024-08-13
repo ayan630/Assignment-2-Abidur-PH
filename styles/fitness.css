@@ -162,7 +162,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding-top: 59px;
-    margin-top: ;
+    visibility: invisible;
     /* background-color: black;    */
 }
 .brand{
@@ -180,8 +180,6 @@ header{
     border-radius: 39px;
     align-items: center;
     height: 46px;
-   
-
 }
 .nav-item{
     list-style: none;
@@ -234,8 +232,8 @@ header{
     font-size: 1rem;
     margin-bottom: 28px;
 }
-.banner-img{
-    /* height: 580px;
+/* .banner-img{
+    height: 580px;
     width: 349px;
 } */
 
@@ -244,14 +242,15 @@ header{
 
 /* Responsive Design for Mobile */
 
-@media screen and (max-width: 576px) {
-    .navbar, .banner {
+ @media screen and (max-width: 576px) {
+
+    .navbar , .banner{
         max-width: 95%;
     }
-    .nav-links{
+     .nav-links{
         display: none;
     }
-    .brand{
+     .brand{
         font-weight: 800;
         font-size: 2rem;
     }
@@ -261,9 +260,18 @@ header{
     .ham-burger i{
         font-size: 1.9rem;
     }
-}
+    .navbar ul{
+        border: 1px solid red;
+        visibility: hidden;
+    }
+} 
 
-
+/* @media (max-width: 576px) { 
+    .navbar ul{
+        display: none;
+        border: 1px solid blue;
+    }
+} */
 
 
 
