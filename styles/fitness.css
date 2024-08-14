@@ -44,6 +44,7 @@ body{
 
 .bg-linear-gray{
     background: linear-gradient(180deg, rgb(31, 30, 30),rgba(119, 119, 119, 0) 100%);
+    /* background: linear-gradient(180deg, rgba(19, 19, 19, 0.747) 0%, rgb(30, 30, 30) 50%, rgba(1, 1, 1, 0.719) 100%); */
 }
 
 .section-title{
@@ -356,7 +357,7 @@ table{
 }
 td, th{
     border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 8px 15px;
+    padding: 12px 25px;
     /* font-size: 3rem; */
 }
 th{
@@ -395,8 +396,8 @@ td{
     margin-bottom: 34px;
 }
 .form-inputs{
-    width: 282.5px;
-    margin-bottom: 7px;
+    width: 277px;
+    margin-bottom: 12px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 8px;
     height: 48px;
@@ -404,9 +405,12 @@ td{
     padding: 12px 40px;
     color: rgba(255, 255, 255, 0.6);
 }
+.input-height-age{
+    margin-right: 6px;
+}
 .select-activity{
     margin-bottom: 34px;
-    width: 570px;
+    width: 567px;
     border-radius: 8px;
     height: 48px;
     border: none;
@@ -470,7 +474,58 @@ td{
 }
 
 /* Footer related styles */
+footer{
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 489px;
+    margin-top: 88px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    margin-top: 66px;
+    margin-bottom: 20px;
+    font-size: 4.37rem;
+    font-weight: 800;
+}
+.footer-description{
+    width: 433px;
+}
 
+.info-title{
+    color: rgba(255, 255, 255);
+    margin-bottom: 40px;
+    margin-top: 66px;
+    font-weight: 2rem;
+    font-weight: 700;
+}
+.info-lists{
+    list-style: none;
+}
+
+.info-lists li{
+    margin-bottom: 20px;
+}
+
+.info-item{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+hr{
+    max-width: 80%;
+    margin-top: 79px;
+    margin-bottom: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1.5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.rights{
+    text-align: center;
+    font-size: 1.25rem;
+}
 
 
 
@@ -603,6 +658,7 @@ td{
     .fitness-section{
         margin-top: 66px;
         height: 561px;
+        margin-bottom: 0px;
     }
     
     .fitness-text{
@@ -649,21 +705,26 @@ td{
     }
     .bmi-items{
         height: 772px;
-        padding: 20px;
+        padding: 8px;
         margin-bottom: 88px;
     }
     .bmi-title{
         font-size: 2rem;
-        margin-left: 8px;
-        margin-right: 0px;
+        width: 236px;
+        margin-top: 60px;
+        margin-left: 25px;
     }
     .bmi-table-title, .bmi-form-title{
-        margin-top: 40px;
+        margin-top: 37px;
         font-size: 1rem;
+    }
+    .bmi-table{
+        margin-top: 23px;
     }
     .bmi-description{
         width: 343px;
-        margin-right: 53px;
+        margin-right: 57px;
+        margin-bottom: 32px;
     }
     .bmi-form-description{
         width: 346px;
@@ -671,31 +732,17 @@ td{
         margin-bottom: 34px;
     }
 
-
-    /* .bmi-table-form{
-        margin-left: 0%;
-    }
-    .bmi-form-items{
-        margin-right: 0%;
-    } */
-
-
-
-
-
     .form-inputs{
-        width: 174px;
+        width: 185px;
         height: 48px;
-        margin-bottom: 7px;
-        background-color: rgba(255, 255, 255, 0.1);
-        border-radius: 8px;
-        
-        border: none;
+        margin-bottom: 12px;
         padding: 12px 20px;
-        color: rgba(255, 255, 255, 0.6);
+    }
+    .input-height-age{
+        margin-right: 5px;
     }
     .select-activity{
-        width: 353px;
+        width: 380px;
         height: 48px;
         padding: 12px 20px;
     }
