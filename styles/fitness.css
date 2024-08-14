@@ -18,6 +18,10 @@
 body{
     background-color: black;
 }
+main{
+    max-width: 80%;
+    margin: 0 auto;
+}
 
 /* Shared Styles */
 .container{
@@ -47,8 +51,15 @@ body{
     background: linear-gradient(180deg, rgb(31, 30, 30),rgba(119, 119, 119, 0) 100%);
 }
 
-.banner{
-    /* margin-top: 50px; */
+.section-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.section-description{
+    font-size: 0.87rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 /* Button styles */
@@ -242,6 +253,59 @@ header{
     width: 100%;
 }
 
+/* Habits Related Styles */
+.habits-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.habits{
+    text-align: center;
+}
+.habit-title{
+    margin-top: 100px;
+}
+.habit-text{
+    margin-top: 14px;
+    margin-bottom: 58px;
+}
+
+.habit-card{
+    width: 231px;
+    height: 284px;
+    border: 2px solid red;
+}
+.habit-img{
+    border-radius: 50%;
+    margin-bottom: 30px;
+    border: 3px solid rgb(34, 34, 34);
+}
+.habit-img-123{
+    margin-right: 200px;
+}
+.habit-name{
+    font-size: 1.13rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: white;
+}
+.habit-description{
+    font-size: 0.87rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Run Extra Mile related styles */
+
+/* BMI related styles */
+
+/* Unique section style */
+
+/* Team related styles */
+
+/* Footer related styles */
+
+
+
 
 
 
@@ -359,6 +423,10 @@ header{
         font-size: 0.65rem;
         margin-right: 5px;
     }
+    .section-title{
+        font-size: 2rem;
+    }
+    
 
 } 
 
