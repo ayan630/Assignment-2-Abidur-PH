@@ -23,12 +23,8 @@ main{
     margin: 0 auto;
 }
 
+
 /* Shared Styles */
-.container{
-    /* width: 80%; */
-    /* margin: 5rem auto;
-    border-radius: 1rem; */
-}
 
 .display-flex{
     display: flex;
@@ -47,7 +43,6 @@ main{
 }
 
 .bg-linear-gray{
-    /* background-color: black; */
     background: linear-gradient(180deg, rgb(31, 30, 30),rgba(119, 119, 119, 0) 100%);
 }
 
@@ -328,6 +323,58 @@ header{
 
 /* BMI related styles */
 
+.bmi-title{
+    width: 630px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.bmi-description{
+    margin-top: 14px;
+    margin-bottom: 80px;
+    width: 630px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.bmi-items{
+    height: 487px;
+    padding: 20px;
+    background-color: rgb(34, 34, 34);
+    width: 100vw; 
+    margin-left: calc(-50vw + 50%);
+}
+.bmi-table-form{
+    margin-left: 10%;
+}
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 8px 15px;
+    /* font-size: 3rem; */
+}
+th{
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.87rem;
+    font-weight: 400;
+}
+.bmi-th{
+    text-align: left;
+}
+.bmi-table-title{
+    margin-top: 52px;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+.bmi-table{
+    margin-top: 52px;
+}
+
 /* Unique section style */
 
 /* Team related styles */
@@ -344,8 +391,7 @@ header{
     margin-bottom: 58px;
     width: 630px;
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto; 
 }
 .team{
     background-color: rgba(255, 255, 255, 0.1);
