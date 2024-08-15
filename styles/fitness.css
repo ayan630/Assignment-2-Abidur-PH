@@ -497,7 +497,7 @@ footer{
     color: rgba(255, 255, 255);
     margin-bottom: 40px;
     margin-top: 66px;
-    font-weight: 2rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 .info-lists{
@@ -510,6 +510,7 @@ footer{
 
 .info-item{
     text-decoration: none;
+    font-size: 1.44rem;
     color: rgba(255, 255, 255, 0.5);
 }
 hr{
@@ -534,12 +535,12 @@ hr{
 /* Responsive Design for Mobile */
 
  @media screen and (max-width: 576px) {
-    .banner, .fitness-section, .bmi-table-form{
+    .banner, .fitness-section, .bmi-table-form, .footer-container{
         flex-direction: column;
         border: 1px solid blue;
     }
 
-    .navbar , .banner, .width80{
+    .navbar , .banner, .width80, hr{
         max-width: 95%;
     }
      .nav-links{
@@ -555,10 +556,6 @@ hr{
     .ham-burger i{
         font-size: 1.9rem;
     }
-    /* .navbar ul{
-        border: 1px solid red;
-        visibility: hidden;
-    } */
     .banner-content{
         margin-top: 51px;
     }
@@ -660,19 +657,15 @@ hr{
         height: 561px;
         margin-bottom: 0px;
     }
-    
     .fitness-text{
         width: 287px;
         height: 264px;
         margin-top: 41px;
         margin-left: 40px;
-        /* margin-left: 10px; */
     }
     .fitness-description{
         width: 278px;
     }
-
-
     .run-img{
         width: 320px;
         height: 203px;
@@ -680,8 +673,7 @@ hr{
         margin-top: 30px;
         margin-left: 40px;
         margin-bottom: 35px;
-        object-fit: cover;
-           
+        object-fit: cover;         
     }
     .fitness-btn{
         width: 320px;
@@ -731,7 +723,6 @@ hr{
         margin-top: 14px;
         margin-bottom: 34px;
     }
-
     .form-inputs{
         width: 185px;
         height: 48px;
@@ -745,6 +736,30 @@ hr{
         width: 380px;
         height: 48px;
         padding: 12px 20px;
+    }
+    footer{
+        height: 966px;
+        margin-top: 66px;
+    }
+    .footer-title{
+        margin-top: 44px;
+        font-size: 3.7rem;
+        /* font-size: 4.37rem; */
+    }
+    .footer-description{
+        width: 317px;
+        margin-bottom: 10px;
+    }
+    .info-title{
+        margin-bottom: 35px;
+        margin-top: 20px;
+    }
+    hr{
+        margin-top: 65px;
+    }
+    .rights{
+        text-align: center;
+        font-size: 1.25rem;
     }
 
 } 
