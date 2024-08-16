@@ -326,8 +326,7 @@ header{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 14px;
-    width: 658px; 
-    border: 2px solid red;
+    width: 672px; 
 }
 .why-choose-description{
     width: 600px;
@@ -335,25 +334,21 @@ header{
     margin-right: auto;
     margin-bottom: 68px;
     text-align: center;
-    border: 2px solid red;
 }
 .why-choose-container{
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 18px;
     padding: 10px;
-    border: 2px solid blueviolet;
 }
 .why-choose{
     justify-content: space-between;
     margin-top: 30px;
-    border: 2px solid yellow;
 }
 .choose-items-2{
     margin-bottom: 30px;
 }
 .why-choose-items{
     margin-top: 60px;
-    border: 2px solid red;
 }
 .benefits-title{
     color: white;
@@ -361,25 +356,20 @@ header{
     margin-bottom: 14px;
     font-size: 1.75rem;
     font-weight: 900;
-    border: 2px solid red;
 }
 .benefits-description{
     width: 380px;
-    border: 2px solid red;
 }
 .benefits-img{
     width: 60%;
     height: 240px;
     /* filter: brightness(75%); */
-    border: 2px solid red;
 }
 .benefits-text-1, .benefits-img-2{
     margin-left: 82px;
-    border: 2px solid red;
 }
 .benefits-text-2, .benefits-img-1{
     margin-right: 82px;
-    border: 2px solid red;
 }
 .benefits-img-2{
     margin-left: 160px;
@@ -391,7 +381,6 @@ header{
     margin-top: 90px;
     margin-left: auto;
     margin-right: auto; 
-    border: 2px solid red;
 }
 .bmi-description{
     margin-top: 14px;
@@ -399,14 +388,12 @@ header{
     width: 630px;
     margin-left: auto;
     margin-right: auto; 
-    border: 2px solid red;
 }
 .bmi-items{
     height: 487px;
     padding: 20px;
     width: 100%;
     background-color: rgb(34, 34, 34);
-    border: 2px solid red;
     margin-bottom:  88px;
 }
 .bmi-table-form{
@@ -526,8 +513,6 @@ td{
     color: rgba(255, 255, 255, 0.5) ;
 }
 .team-img{
-    /* width: 326.67px; */
-    /* height: 272px; */
     border-radius: 18px;
 }
 .img-4{
@@ -678,17 +663,14 @@ hr{
         margin-bottom: 5px;
         margin-right: 5px;
     }
-    
     .badge-1-number{
         font-size: 1.13rem;
         font-weight: 900;
         margin-right: 22px;
     }
-    
     .badge-1-text{
         font-size: 0.75rem;
     }
-    
     .badge-2{
         width: 145px;
         height: 74px;
@@ -805,7 +787,6 @@ hr{
     .footer-title{
         margin-top: 44px;
         font-size: 3.7rem;
-        /* font-size: 4.37rem; */
     }
     .footer-description{
         width: 317px;
@@ -825,19 +806,42 @@ hr{
     .choose-items-2{
         flex-direction: column-reverse;
     }
-
-
-
-
-
-
-
-
-
-    
-
-
-
+    .why-choose-title{
+        margin-top: 55px;
+        width: 353px;
+        text-align: center;
+    }
+    .why-choose-description{
+        width: 353px;
+        margin-bottom: 32px;
+    }
+    .why-choose-items{
+        margin-top: 10px;
+    }
+    .choose-items-1{
+        margin-top: 10px;
+    }
+    .choose-items-2{
+        margin-bottom: 10px;
+    }
+    .benefits-title{
+        font-size: 1.5rem;
+    }
+    .benefits-description{
+        width: 353px;
+        margin-bottom: 18px;
+    }
+    .benefits-img{
+        width: 60%;
+        height: 170px;
+        margin-left: 76px;
+    }
+    .benefits-text-1{
+        margin-left: 0px;
+    }
+    .benefits-text-2{
+        margin-right: 0px;
+    }
 
 
 
