@@ -251,8 +251,9 @@ header{
 
 /* Habits Related Styles */
 .habits-container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    /* display: grid; */
+    /* grid-template-columns: repeat(4, 1fr); */
 }
 .habits{
     text-align: center;
@@ -268,7 +269,6 @@ header{
 .habit-card{
     width: 231px;
     height: 284px;
-    border: 2px solid red;
 }
 .habit-img{
     border-radius: 50%;
@@ -276,7 +276,7 @@ header{
     border: 3px solid rgb(34, 34, 34);
 }
 .habit-img-123{
-    margin-right: 200px;
+    /* margin-right: 200px; */
 }
 .habit-name{
     font-size: 1.13rem;
@@ -311,7 +311,6 @@ header{
     height: 312px;
     border-radius: 18px;
     margin-top: 30px;
-    /* padding-right: 30px; */
     margin-right: 40px;
     object-fit: none;
     object-position: 66% 33%;
@@ -352,7 +351,6 @@ header{
 }
 .benefits-title{
     color: white;
-    /* margin-top: 52px; */
     margin-bottom: 14px;
     font-size: 1.75rem;
     font-weight: 900;
@@ -363,7 +361,6 @@ header{
 .benefits-img{
     width: 60%;
     height: 240px;
-    /* filter: brightness(75%); */
 }
 .benefits-text-1, .benefits-img-2{
     margin-left: 82px;
@@ -395,12 +392,6 @@ header{
     width: 100%;
     background-color: rgb(34, 34, 34);
     margin-bottom:  88px;
-}
-.bmi-table-form{
-    /* margin-left: 10%; */
-}
-.bmi-form-items{
-    /* margin-right: 10%; */
 }
 table{
     border-collapse: collapse;
@@ -575,15 +566,11 @@ hr{
 }
 
 
-
-
-
 /* Responsive Design for Mobile */
 
  @media screen and (max-width: 576px) {
-    .banner, .fitness-section, .bmi-table-form, .footer-container, .why-choose{
+    .banner, .fitness-section, .bmi-table-form, .footer-container, .why-choose, .habits-container{
         flex-direction: column;
-        border: 1px solid blue;
     }
 
     .navbar , .banner, .width80, hr{
@@ -688,13 +675,19 @@ hr{
     .section-title {
         font-size: 2rem;
     }
+
+    /* habits */
     .habits-container{
-        grid-template-columns: repeat(1, 1fr);
-        margin-left: 87px;
+        align-items: center;
     }
-    .habit-img-123{
+    .habit-card{
         margin-bottom: 36px;
     }
+    .habit-4{
+        margin-bottom: 5px;
+    }
+
+/* fitness */
     .fitness-section{
         margin-top: 66px;
         height: 561px;
@@ -722,22 +715,48 @@ hr{
         width: 320px;
         height: 55px;
     }
-    .team{
-        background-color: rgba(255, 255, 255, 0.1);
-        border-radius: 18px;
-        padding: 20px;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 1rem;   
+/* why choose planet fitness */
+    .choose-items-2{
+    flex-direction: column-reverse;
     }
-    .img-none{
-        display: none;
+    .why-choose-title{
+    margin-top: 55px;
+    width: 353px;
+    text-align: center;
     }
-    .team-description{
-        width: 309px;
-        margin-left: auto;
-        margin-right: auto;  
+    .why-choose-description{
+    width: 353px;
+    margin-bottom: 32px;
     }
+    .why-choose-items{
+    margin-top: 10px;
+    }
+    .choose-items-1{
+    margin-top: 10px;
+    }
+    .choose-items-2{
+    margin-bottom: 10px;
+    }
+    .benefits-title{
+    font-size: 1.5rem;
+    }
+    .benefits-description{
+    width: 353px;
+    margin-bottom: 18px;
+    }
+    .benefits-img{
+    width: 60%;
+    height: 170px;
+    margin-left: 76px;
+    }
+    .benefits-text-1{
+    margin-left: 0px;
+    }
+    .benefits-text-2{
+    margin-right: 0px;
+    }
+
+/* BMI section */
     .bmi-items{
         height: 772px;
         padding: 8px;
@@ -780,6 +799,28 @@ hr{
         height: 48px;
         padding: 12px 20px;
     }
+
+
+/* team section */
+    .team{
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 18px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;   
+    }
+    .img-none{
+        display: none;
+    }
+    .team-description{
+        width: 309px;
+        margin-left: auto;
+        margin-right: auto;  
+    }
+    
+
+/* footer */
     footer{
         height: 966px;
         margin-top: 66px;
@@ -803,48 +844,6 @@ hr{
         text-align: center;
         font-size: 1.25rem;
     }
-    .choose-items-2{
-        flex-direction: column-reverse;
-    }
-    .why-choose-title{
-        margin-top: 55px;
-        width: 353px;
-        text-align: center;
-    }
-    .why-choose-description{
-        width: 353px;
-        margin-bottom: 32px;
-    }
-    .why-choose-items{
-        margin-top: 10px;
-    }
-    .choose-items-1{
-        margin-top: 10px;
-    }
-    .choose-items-2{
-        margin-bottom: 10px;
-    }
-    .benefits-title{
-        font-size: 1.5rem;
-    }
-    .benefits-description{
-        width: 353px;
-        margin-bottom: 18px;
-    }
-    .benefits-img{
-        width: 60%;
-        height: 170px;
-        margin-left: 76px;
-    }
-    .benefits-text-1{
-        margin-left: 0px;
-    }
-    .benefits-text-2{
-        margin-right: 0px;
-    }
-
-
-
 } 
 
 
