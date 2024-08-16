@@ -319,7 +319,7 @@ header{
     margin-bottom: 34px;
     width: 400px;
 }
-
+/* Unique section style */
 
 
 /* BMI related styles */
@@ -421,8 +421,6 @@ td{
 ::placeholder{
     color: rgba(255, 255, 255, 0.6);
 }
-
-/* Unique section style */
 
 /* Team related styles */
 .team-section img{
