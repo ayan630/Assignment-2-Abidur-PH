@@ -320,12 +320,55 @@ header{
     width: 400px;
 }
 /* Unique section style */
+.why-choose-title{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 14px;
+    width: 658px; 
+}
+.why-choose-description{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 68px;
+    text-align: center;
+}
+.why-choose-container{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    padding: 10px;
+}
+.benefits-title{
+    color: white;
+    margin-top: 52px;
+    margin-bottom: 14px;
+}
+.benefits-description{
+    width: 443px;
+}
+.benefits-img{
+    width: 100%;
+    height: 320px;
+    /* filter: brightness(75%); */
+    border: 2px solid red;
+}
+.benefits-text-1, .benefits-img-2{
+    margin-left: 82px;
+}
+.benefits-text-2, .benefits-img-1{
+    margin-right: 82px;
+}
 
+.why-choose{
+    justify-content: space-between;
+}
+    
 
 /* BMI related styles */
 
 .bmi-title{
     width: 630px;
+    margin-top: 90px;
     margin-left: auto;
     margin-right: auto; 
     border: 2px solid red;
