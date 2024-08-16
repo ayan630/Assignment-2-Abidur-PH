@@ -307,9 +307,11 @@ header{
 }
 .run-img{
     width: 366px;
+    /* width: 100%; */
     height: 312px;
     border-radius: 18px;
     margin-top: 30px;
+    /* padding-right: 30px; */
     margin-right: 40px;
     object-fit: none;
     object-position: 66% 33%;
@@ -319,12 +321,13 @@ header{
     margin-bottom: 34px;
     width: 400px;
 }
-/* Unique section style */
+/* Unique section style "Why choose planet Fitness?" */
 .why-choose-title{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 14px;
     width: 658px; 
+    border: 2px solid red;
 }
 .why-choose-description{
     width: 600px;
@@ -332,40 +335,57 @@ header{
     margin-right: auto;
     margin-bottom: 68px;
     text-align: center;
+    border: 2px solid red;
 }
 .why-choose-container{
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 18px;
     padding: 10px;
+    border: 2px solid blueviolet;
+}
+.why-choose{
+    justify-content: space-between;
+    margin-top: 30px;
+    border: 2px solid yellow;
+}
+.choose-items-2{
+    margin-bottom: 30px;
+}
+.why-choose-items{
+    margin-top: 60px;
+    border: 2px solid red;
 }
 .benefits-title{
     color: white;
-    margin-top: 52px;
+    /* margin-top: 52px; */
     margin-bottom: 14px;
+    font-size: 1.75rem;
+    font-weight: 900;
+    border: 2px solid red;
 }
 .benefits-description{
-    width: 443px;
+    width: 380px;
+    border: 2px solid red;
 }
 .benefits-img{
-    width: 100%;
-    height: 320px;
+    width: 60%;
+    height: 240px;
     /* filter: brightness(75%); */
     border: 2px solid red;
 }
 .benefits-text-1, .benefits-img-2{
     margin-left: 82px;
+    border: 2px solid red;
 }
 .benefits-text-2, .benefits-img-1{
     margin-right: 82px;
+    border: 2px solid red;
 }
-
-.why-choose{
-    justify-content: space-between;
+.benefits-img-2{
+    margin-left: 160px;
 }
-    
 
 /* BMI related styles */
-
 .bmi-title{
     width: 630px;
     margin-top: 90px;
@@ -576,7 +596,7 @@ hr{
 /* Responsive Design for Mobile */
 
  @media screen and (max-width: 576px) {
-    .banner, .fitness-section, .bmi-table-form, .footer-container{
+    .banner, .fitness-section, .bmi-table-form, .footer-container, .why-choose{
         flex-direction: column;
         border: 1px solid blue;
     }
@@ -802,6 +822,24 @@ hr{
         text-align: center;
         font-size: 1.25rem;
     }
+    .choose-items-2{
+        flex-direction: column-reverse;
+    }
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
 
 } 
 
